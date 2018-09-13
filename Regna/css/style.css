@@ -39,9 +39,8 @@ button:hover {
   color: #2dc997;;
   background-color: white;
   border: solid 2px #2dc997;
-  border-radius: 50px;
-}
 
+}
 /* Extra styles for the cancel button */
 .cancelbtn {
   border: none;
@@ -75,6 +74,53 @@ span.psw {
     padding-top: 16px;
 }
 
+/* search box */
+.search-bar {
+  padding: 4%;
+  color: #ffffff ;
+  background-color: rgba(52, 59, 64, 0.9);
+}
+#search-hd{
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 5%;
+
+}
+.cart {
+  padding-top: 3%;
+  float: right;
+}
+#symbols {
+  font-size: 25px;
+}
+.notification {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.shopping-cart {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.account {
+  margin-top: 5px;
+  margin-left: 30px;
+  color: #ffffff;
+  font-size: 20px;
+}
+#search-btn {
+  font-weight: bold;
+  border-radius: 0%;
+}
+#search-btn:hover {
+  color: #2dc997;;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+}
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
